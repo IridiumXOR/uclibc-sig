@@ -9,9 +9,10 @@ These signatures permits to recognize library functions inside stripped binaries
 
 For example:
 this is the representation of the content of a x86-64 GafGyt stripped sample before the application of the signatures:
+![pre](https://raw.githubusercontent.com/oliveriandrea/uclibc-sig/master/pre.png)
 
 After the application of the signatures:
-
+![post](https://raw.githubusercontent.com/oliveriandrea/uclibc-sig/master/post.png)
 
 I have generated signatures for all Flair supported architectures for the following static libraries:
 * ***libc.a***
